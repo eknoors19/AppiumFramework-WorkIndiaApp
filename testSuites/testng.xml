@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="NAGP Testing for Work India UI Design">
+	<listeners>
+	  <listener class-name="listeners.MyListeners"></listener>	
+  	</listeners>
+	<test thread-count="2" name="SanityTest">
+		<classes>
+			<class name="testRunner.TestRunner" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->
